@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="choices">
+    <h1>Pierre- Papier - Ciseaux</h1>
+    <button onclick="playGame('pierre')"><span>&#128074</span></button>
+    <button onclick="playGame('feuille')"><span>&#129306</span></button>
+    <button onclick="playGame('ciseaux')"><span>&#9996</span></button>
+</div>
+
+    <div id="playerDisplay">Joueur:</div>
+    <div id="computerDisplay">Ordinateur:</div>
+    <div id="resultDisplay">Resultat:</div>
+
+    <div class="scoreTable">
+        <div class="scoreDisplay">
+            Score du Joueur
+            <span id="playerScoreDisplay">0</span>
+        </div>
+        <div class="scoreDisplay">
+            Score de l'Ordinateur
+            <span id="computerScoreDisplay">0</span>
+        </div>
+    </div>
+
+
+<script src="assets/index.js"></script>
+</body>
+</html>
